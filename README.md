@@ -15,6 +15,7 @@ Note: If you already have Java JRE, it **will not** work. Java JRE is commonly u
 Download: https://git-scm.com/downloads
 
 File Size: Approximately 40.0~ MB
+
 ![alt text](https://www.kthisiscvpv.com/Eivby1555022607jq7bM.png "Git Download")
 
 ---
@@ -24,3 +25,7 @@ Download https://www.jetbrains.com/idea/download/#section=windows
 
 File Size: Approximately 480~ MB
 ![alt text](https://www.kthisiscvpv.com/lVMg015550228076zQbW.png "IntelliJ Download")
+
+## Installation
+
+Please install the programs listed in the requirements above in the order that they are listed. In every installation process, you are able to just spam on the **[NEXT]** and **[FINISH]** buttons. There is no ad-ware lurking in these development tools; and hopefully never will.
