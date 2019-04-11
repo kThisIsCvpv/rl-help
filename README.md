@@ -52,6 +52,7 @@ When you are prompted to import the project, hit `Yes`.
 ![alt text](https://www.kthisiscvpv.com/XwvuB15550245131mGLg.png "Checkout Prompt")
 
 Import the project as `Import project from external model > Maven > Next ...`
+_Note: You might not be given this window. It is perfectly fine; IntelliJ has already correctly imported it for you._
 
 ![alt text](https://www.kthisiscvpv.com/eCRtZ1555024570b6NhZ.png "Import Project")
 
@@ -63,8 +64,37 @@ Your screen should currently look something like this.
 
 Press `Alt + 1` on your keyboard to bring up the sidebar menu. Navigate to `File > Settings`.
 
-![alt text](https://www.kthisiscvpv.com/m0eTy1555025029yhiMr.png "Current Screen")
+![alt text](https://www.kthisiscvpv.com/m0eTy1555025029yhiMr.png "Configure Settings")
 
 Navigate to `Plugins > Search` and search for `Lombok`. Install this software as it is used to compile RuneLite.
 
-![alt text](https://www.kthisiscvpv.com/bXcPm15550251085zFLm.png "Current Screen")
+![alt text](https://www.kthisiscvpv.com/bXcPm15550251085zFLm.png "Search Lombok")
+
+At this point, you will be prompted to restart your IDE. You should do so.
+
+#### 4. Installing RuneLite
+
+In the top right corner of your screen find a dropdown box click it and navigate to `Edit Configurations...`.
+
+![alt text](https://www.kthisiscvpv.com/FwHCC1555025744fulpq.png "Edit Configurations")
+
+Add a new Maven configuration by clicking `[+] > Maven`.
+
+![alt text](https://www.kthisiscvpv.com/eMxht1555025761eXyub.png "Adding Maven")
+
+Click the folder next to `Working Directory` and select `runelite-parent`.
+
+![alt text](https://www.kthisiscvpv.com/uO1qx1555025942OGbNy.png "Select Directory")
+
+The under `Command line`, enter `install -DskipTests -U`. You can now hit `Apply` and `Okay` to close the window.
+
+![alt text](https://www.kthisiscvpv.com/M85WO1555026099piRGJ.png "Apply Configurations")
+
+Back to where the `Edit Configurations...` was, you should now see a `M` option. Click the `Play` button next to it. 
+_Note: If your button isn't green, you might need to wait a couple minutes for your IntelliJ to finish indexing the files._
+
+![alt text](https://www.kthisiscvpv.com/3wsVD1555026365FZvV8.png "Run Maven")
+
+A console will now appear at the bottom of the screen. Wait until the console shows an exit code before continuing. 
+
+![alt text](https://www.kthisiscvpv.com/X0Kkr1555026572rvRFo.png "Exit Code")
