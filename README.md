@@ -9,7 +9,7 @@ File Size: Approximately 200.0~ MB
 
 ![alt text](https://www.kthisiscvpv.com/X9wLm1555022461ec3PU.png "Java 8 Download")
 
-Note: If you already have Java JRE, it **will not** work. Java JRE is commonly used by consumers. Java JDK contains libraries required by developers. Building with IntelliJ, the compilation software below, requires Java JDK 8.
+Note: Java JRE **will not** work. Java JRE is commonly used by consumers products. Java JDK contains libraries required by developer programs. Building with IntelliJ, the compilation software below, requires the Java JDK 8 software. You can have multiple Java versions on your PC without confliction.
 
 ---
 
