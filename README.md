@@ -1,5 +1,7 @@
 # Runelite Plugin Compilation (Developer Mode)
-## Requirements
+Guide made by Yuri-chan
+
+## Required Software List:
 ### Java JDK 8 or higher
 Download: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
