@@ -1,5 +1,5 @@
-# Runelite Plugin Compilation (Developer Mode)
-Guide made by Yuri-chan
+# RuneLite Plugin Compilation (for Noobs)
+This guide was made by Yuri-chan. A more advanced guide can be found on the [official RuneLite page](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA).
 
 ## Required Software List:
 ### Java JDK 8 or higher
@@ -28,6 +28,7 @@ Download https://www.jetbrains.com/idea/download/#section=windows
 File Size: Approximately 480~ MB
 ![alt text](https://www.kthisiscvpv.com/lVMg015550228076zQbW.png "IntelliJ Download")
 
-## Installation
+## Installation Process
 
-Please install the programs listed in the requirements above in the order that they are listed. In every installation process, you are able to just spam on the **[NEXT]** and **[FINISH]** buttons. There is no ad-ware lurking in these development tools; and hopefully never will.
+Please install the programs listed in the requirements above **in the order** that they are listed. In every installation process, you are able to just spam on the **[NEXT]** and **[FINISH]** buttons. There is no ad-ware lurking in these development tools; and hopefully never will.
+
