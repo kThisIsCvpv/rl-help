@@ -25,10 +25,33 @@ File Size: Approximately 40.0~ MB
 ### IntelliJ IDEA Community Edition
 Download https://www.jetbrains.com/idea/download/#section=windows
 
-File Size: Approximately 480~ MB
+File Size: Approximately 480.0~ MB
 ![alt text](https://www.kthisiscvpv.com/lVMg015550228076zQbW.png "IntelliJ Download")
 
-## Installation Process
+## Software Installation Process
 
 Please install the programs listed in the requirements above **in the order** that they are listed. In every installation process, you are able to just spam on the **[NEXT]** and **[FINISH]** buttons. There is no ad-ware lurking in these development tools; and hopefully never will.
 
+## RuneLite Installation Process
+
+At this point, you should have all 3 of the required software installed. This section begins the tutorial on how to build RuneLite from scratch using the compiler. 
+
+#### 1. Launch IntelliJ Idea
+#### 2. Check out from Version Control
+Click on `Check out from Version Control` and then select `Git`.
+
+![alt text](https://www.kthisiscvpv.com/uccXt1555024283Onx5R.png "Git Checkout")
+
+When asked for the repository location, enter `https://github.com/runelite/runelite` as the URL. Then click `Clone`.
+
+![alt text](https://www.kthisiscvpv.com/IQ8vO1555024443MKzm8.png "Git Clone")
+
+When you are prompted to import the project, hit `Yes`.
+
+![alt text](https://www.kthisiscvpv.com/XwvuB15550245131mGLg.png "Checkout Prompt")
+
+Import the project as `Import project from external model > Maven > Next ...`
+
+![alt text](https://www.kthisiscvpv.com/eCRtZ1555024570b6NhZ.png "Import Project")
+
+#### 3. 
