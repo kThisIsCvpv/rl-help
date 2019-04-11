@@ -37,7 +37,8 @@ Please install the programs listed in the requirements above **in the order** th
 At this point, you should have all 3 of the required software installed. This section begins the tutorial on how to build RuneLite from scratch using the compiler. 
 
 #### 1. Launch IntelliJ Idea
-#### 2. Check out from Version Control
+Simple right? I hope you don't get stuck here...
+#### 2. Downloading RuneLite Source
 Click on `Check out from Version Control` and then select `Git`.
 
 ![alt text](https://www.kthisiscvpv.com/uccXt1555024283Onx5R.png "Git Checkout")
@@ -54,4 +55,16 @@ Import the project as `Import project from external model > Maven > Next ...`
 
 ![alt text](https://www.kthisiscvpv.com/eCRtZ1555024570b6NhZ.png "Import Project")
 
-#### 3. 
+#### 3. Installing Lombok
+
+Your screen should currently look something like this.
+
+![alt text](https://www.kthisiscvpv.com/vs1A41555024883LNQIe.png "Current Screen")
+
+Press `Alt + 1` on your keyboard to bring up the sidebar menu. Navigate to `File > Settings`.
+
+![alt text](https://www.kthisiscvpv.com/m0eTy1555025029yhiMr.png "Current Screen")
+
+Navigate to `Plugins > Search` and search for `Lombok`. Install this software as it is used to compile RuneLite.
+
+![alt text](https://www.kthisiscvpv.com/bXcPm15550251085zFLm.png "Current Screen")
