@@ -75,11 +75,7 @@ Import the project as `Import project from external model > Maven > Next ...`
 
 #### 3. Installing Lombok
 
-Your screen should currently look something like this.
-
-![alt text](https://www.kthisiscvpv.com/vs1A41555024883LNQIe.png "Current Screen")
-
-Press `Alt + 1` on your keyboard to bring up the sidebar menu. Navigate to `File > Settings`.
+You should be back to the screen you were at before you closed your project above. Navigate to `File > Settings`.
 
 ![alt text](https://www.kthisiscvpv.com/m0eTy1555025029yhiMr.png "Configure Settings")
 
