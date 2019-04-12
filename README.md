@@ -52,6 +52,7 @@ When you are prompted to import the project, hit `Yes`.
 ![alt text](https://www.kthisiscvpv.com/XwvuB15550245131mGLg.png "Checkout Prompt")
 
 Import the project as `Import project from external model > Maven > Next ...`
+
 _Note: You might not be given this window. It is perfectly fine; IntelliJ has already correctly imported it for you._
 
 ![alt text](https://www.kthisiscvpv.com/eCRtZ1555024570b6NhZ.png "Import Project")
@@ -91,10 +92,25 @@ The under `Command line`, enter `install -DskipTests -U`. You can now hit `Apply
 ![alt text](https://www.kthisiscvpv.com/M85WO1555026099piRGJ.png "Apply Configurations")
 
 Back to where the `Edit Configurations...` was, you should now see a `M` option. Click the `Play` button next to it. 
+
 _Note: If your button isn't green, you might need to wait a couple minutes for your IntelliJ to finish indexing the files._
 
 ![alt text](https://www.kthisiscvpv.com/3wsVD1555026365FZvV8.png "Run Maven")
 
-A console will now appear at the bottom of the screen. Wait until the console shows an exit code before continuing. 
+A console will now appear at the bottom of the screen. Wait until the console shows an exit code before continuing. This process will take a while if you are running it for your first time.
 
 ![alt text](https://www.kthisiscvpv.com/X0Kkr1555026572rvRFo.png "Exit Code")
+
+#### 5. Running RuneLite
+
+You should now be able to run RuneLite. Navigate to `runelite > runelite-client > src > main > java > net > runelite > client`. This is done by expanding your project workspace to the left.
+
+![alt text](https://www.kthisiscvpv.com/OINqU1555026898VGRI4.png "Expanding Project Workspace")
+
+Scroll down until you see the RuneLite class. Right click it and click `Run 'RuneLite.main()'` 
+
+![alt text](https://www.kthisiscvpv.com/v6ibX1555026976yVWch.png "Run RuneLite")
+
+RuneLite should now launch. When you launch RuneLite for the first time using this method, **the client may fail to load** and get stuck on `Fetching Game Updates 98%...` or whatever. If this happens, re-run your Maven module back in Step 4. You may need to re-select the drop-down menu. Also, when you launch RuneLite for the first time, there may be a short wait time. This is normal.
+
+![alt text](https://www.kthisiscvpv.com/oL5FQ1555027179LoLeW.png "Select Maven")
