@@ -47,15 +47,31 @@ When asked for the repository location, enter `https://github.com/runelite/runel
 
 ![alt text](https://www.kthisiscvpv.com/IQ8vO1555024443MKzm8.png "Git Clone")
 
+
+
 When you are prompted to import the project, hit `Yes`.
 
 ![alt text](https://www.kthisiscvpv.com/XwvuB15550245131mGLg.png "Checkout Prompt")
 
+Your screen should now look something like this.
+
+![alt text](https://www.kthisiscvpv.com/vs1A41555024883LNQIe.png "Current Screen")
+
+Go to `File > Close Project`.
+
+![alt text](https://www.kthisiscvpv.com/uHCRu1555028780lY10h.png "Current Screen")
+
+Re-import the project again. This time, use the `Import Project` feature.
+
+![alt text](https://www.kthisiscvpv.com/y7cRD1555028964RIiCt.png "Import Project")
+
+Under `File Location` enter in the location of your RuneLite. By default, it should be `~/IdeaProjects/runelite` as shown below.
+
+![alt text](https://www.kthisiscvpv.com/MOpXz15550289923C8P9.png "Find Location")
+
 Import the project as `Import project from external model > Maven > Next ...`
 
-_Note: You might not be given this window. It is perfectly fine; IntelliJ has already correctly imported it for you._
-
-![alt text](https://www.kthisiscvpv.com/eCRtZ1555024570b6NhZ.png "Import Project")
+![alt text](https://www.kthisiscvpv.com/eCRtZ1555024570b6NhZ.png "Import as Maven")
 
 #### 3. Installing Lombok
 
@@ -103,7 +119,7 @@ A console will now appear at the bottom of the screen. Wait until the console sh
 
 #### 5. Running RuneLite
 
-You should now be able to run RuneLite. Navigate to `runelite > runelite-client > src > main > java > net > runelite > client`. This is done by expanding your project workspace to the left.
+You should now be able to run RuneLite. Open the File Explorer by clicking project on the left-most sidebar. Navigate to `runelite > runelite-client > src > main > java > net > runelite > client`. This is done by expanding your project workspace to the left.
 
 ![alt text](https://www.kthisiscvpv.com/OINqU1555026898VGRI4.png "Expanding Project Workspace")
 
@@ -111,6 +127,12 @@ Scroll down until you see the RuneLite class. Right click it and click `Run 'Run
 
 ![alt text](https://www.kthisiscvpv.com/v6ibX1555026976yVWch.png "Run RuneLite")
 
-RuneLite should now launch. When you launch RuneLite for the first time using this method, **the client may fail to load** and get stuck on `Fetching Game Updates 98%...` or whatever. If this happens, re-run your Maven module back in Step 4. You may need to re-select the drop-down menu. Also, when you launch RuneLite for the first time, there may be a short wait time. This is normal.
+RuneLite should now launch. When you launch RuneLite for the first time using this method, **the client may fail to load** and get stuck on `Fetching Game Updates 99%`, black screen,  or whatever. If this happens, re-run your Maven module back in Step 4. You may need to re-select the drop-down menu, as shown in the image below. Also, when you launch RuneLite for the first time, there may be a short wait time. This is normal.
 
 ![alt text](https://www.kthisiscvpv.com/oL5FQ1555027179LoLeW.png "Select Maven")
+
+#### 6. Success
+
+If you are able to get RuneLite launched and working, you have succeeded.
+
+Now, instead of navigating hundreds of folders every single launch time, use the quick launch configurations in the top as shown in the picture above. Playing `RuneLite` will launch the client. Playing `install` will launch maven. Quick and easy. 
