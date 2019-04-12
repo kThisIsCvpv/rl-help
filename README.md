@@ -1,5 +1,5 @@
 # RuneLite Plugin Compilation (for Noobs)
-This guide was made by Yuri-chan. A more advanced guide can be found on the [official RuneLite page](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA).
+This guide was made by Yuri-chan. A more advanced guide can be found on the [official RuneLite page](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA). This guide is for people who have never developed before and will probably have no idea what they're doing. It's filled with a bunch of pictures UwU.
 
 ## Required Software List:
 ### Java JDK 8 or higher
@@ -132,3 +132,35 @@ RuneLite should now launch. When you launch RuneLite for the first time using th
 If you are able to get RuneLite launched and working, you have succeeded.
 
 Now, instead of navigating hundreds of folders every single launch time, use the quick launch configurations in the top as shown in the picture above. Playing `RuneLite` will launch the client. Playing `install` will launch maven. Quick and easy. 
+
+## Plugins:
+
+If you're able to launch RuneLite successfully from Step 6 from above, plugin installation becomes really easy.
+
+#### Installing Plugins: 
+
+Remember the RuneLite class that you had to run in a previous step? In the same folder, there is a `plugins` folder. Navigate to `runelite > runelite-client > src > main > java > net > runelite > client` to find it.
+
+![alt text](https://www.kthisiscvpv.com/qhEdn1555094916BYwZi.png "Plugins Folder")
+
+When you want to install a plugin, drag your plugin inside the `plugins` folder.
+
+![alt text](https://www.kthisiscvpv.com/sYryo1555095186LKRjq.png "Plugins Folder")
+
+When prompted with a confirmation message, simply click `Okay`.
+
+#### Uninstalling Plugins: 
+
+Like above,navigate to `runelite > runelite-client > src > main > java > net > runelite > client`. 
+
+However, this time, expand the `plugins` folder. You should see a bunch of plugins.
+
+![alt text](https://www.kthisiscvpv.com/5hQIN1555095348xRGkD.png "Plugins Folder")
+
+`Highlight` the plugin you wish to uninstall. Then press the `Delete` button your keyboard.
+
+![alt text](https://www.kthisiscvpv.com/WfDNI1555095396EzX0w.png "Plugins Folder")
+
+### Upgrading Plugins: 
+
+Uninstall the plugin you wish to upgrade, then install the new patch. Simple.
