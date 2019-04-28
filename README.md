@@ -1,5 +1,7 @@
 # RuneLite Plugin Compilation (for Noobs)
-This guide was made by Yuri-chan. A more advanced guide can be found on the [official RuneLite page](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA). This guide is for people who have never developed before and will probably have no idea what they're doing. It's filled with a bunch of pictures UwU.
+This guide was made by Yuri-chan. A more advanced guide can be found on the [official RuneLite page](https://github.com/runelite/runelite/wiki/Building-with-IntelliJ-IDEA). This guide is for people who have never developed before and will probably have no idea what they're doing. It's filled with a bunch of pictures to help you out visually.
+
+The screenshots were taken using IntelliJ 2018. Your version of the software might look slightly different. However, the compilation procedure below will more or less still remain the same.
 
 ## Required Software List:
 ### Java JDK 8 or higher
@@ -179,7 +181,7 @@ Right click the top level project folder.
 
 Navigate to `Git > Repository > Pull`.
 
-![alt text](https://www.kthisiscvpv.com/msARL1556427160B73ue.png "Update RuneLite")
+![alt text](https://www.kthisiscvpv.com/LvUJE1556427155kzEit.png "Update RuneLite")
 
 Pull the new RuneLite update. This could take a minute or two.
 
