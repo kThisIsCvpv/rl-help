@@ -6,6 +6,7 @@ This guide was made by Yuri-chan. A more advanced guide can be found on the [off
 Download: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 If it asks you to make an Oracle account, use this mirror instead. The link above might be outdated.
+
 Mirror: http://kthisiscvpv.com/jdk-8u211-windows-x64.exe
 
 File Size: Approximately 200.0~ MB
