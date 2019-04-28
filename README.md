@@ -69,7 +69,7 @@ Re-import the project again. This time, use the `Import Project` feature.
 
 ![alt text](https://www.kthisiscvpv.com/y7cRD1555028964RIiCt.png "Import Project")
 
-Under `File Location` enter in the location of your RuneLite. By default, it should be `~/IdeaProjects/runelite` as shown below.
+Under `File Location` enter in the location of your RuneLite. Unless you have changed it, by default, you can type in `~/IdeaProjects/runelite` as shown below to find the correct file.
 
 ![alt text](https://www.kthisiscvpv.com/MOpXz15550289923C8P9.png "Find Location")
 
