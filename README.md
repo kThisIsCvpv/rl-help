@@ -5,9 +5,7 @@ This guide was made by Yuri-chan. A more advanced guide can be found on the [off
 ### Java JDK 8 or higher
 Download: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-If it asks you to make an Oracle account, use this mirror instead. The link above might be outdated.
-
-Mirror: http://kthisiscvpv.com/jdk-8u211-windows-x64.exe
+If it asks you to make an Oracle account, [use this link](http://kthisiscvpv.com/jdk-8u211-windows-x64.exe) instead. The link above might be outdated.
 
 File Size: Approximately 200.0~ MB
 
@@ -155,7 +153,7 @@ When prompted with a confirmation message, simply click `Okay`.
 
 #### Uninstalling Plugins: 
 
-Like above,navigate to `runelite > runelite-client > src > main > java > net > runelite > client`. 
+Like above, navigate to `runelite > runelite-client > src > main > java > net > runelite > client`. 
 
 However, this time, expand the `plugins` folder. You should see a bunch of plugins.
 
@@ -168,3 +166,49 @@ However, this time, expand the `plugins` folder. You should see a bunch of plugi
 ### Upgrading Plugins: 
 
 Uninstall the plugin you wish to upgrade, then install the new patch. Simple.
+
+## Updating Runelite: 
+
+Every Thursday, after the weekly game update, RuneLite also performs a client update. This changes the code that interacts with their servers. As a result, you may notice your global settings disappear, your bank value malfunctioning, etc. You will need to update your code on IntelliJ as a result. This is a simple process.
+
+#### 1. Retrieving New Code
+
+Right click the top level project folder.
+
+![alt text](https://www.kthisiscvpv.com/LvUJE1556427155kzEit.png "Update RuneLite")
+
+Navigate to `Git > Repository > Pull`.
+
+![alt text](https://www.kthisiscvpv.com/msARL1556427160B73ue.png "Update RuneLite")
+
+Pull the new RuneLite update. This could take a minute or two.
+
+![alt text](https://www.kthisiscvpv.com/9mJ5E1556427176bkkDq.png "Update RuneLite")
+
+#### 2. Loading the New Code
+
+Go back to `Git > Repository > Fetch`. This should take a couple seconds.
+
+![alt text](https://www.kthisiscvpv.com/Ah2yj1556427180bgBYg.png "Update RuneLite")
+
+Finally, `Git > Repository > Rebase`. This should also take a couple seconds.
+
+![alt text](https://www.kthisiscvpv.com/8tjqi1556427184IYvZH.png "Update RuneLite")
+
+If you are presented with a message, click `OK`. Everything is continuous for these steps.
+
+![alt text](https://www.kthisiscvpv.com/3Wl2Z1556427188ZcP5d.png "Update RuneLite")
+
+#### 3. Parsing the New Code
+
+Import new changes to the Maven file by navigating to `Maven > Reimport`.
+
+![alt text](https://www.kthisiscvpv.com/zE0ri15564272004pBhj.png "Update RuneLite")
+
+Re-run your Maven (the `install -DskipTests -U` thing in the installation process above). Then click the green triangle `Play` as you did before.
+
+![alt text](https://www.kthisiscvpv.com/VwUEW1556427206F3SMw.png "Update RuneLite")
+
+Switch back to RuneLite and you're done! Your RuneLite has been updated!
+
+![alt text](https://www.kthisiscvpv.com/3pBvn1556427210dv0PA.png "Update RuneLite")
