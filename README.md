@@ -175,7 +175,7 @@ Every Thursday, after the weekly game update, RuneLite also performs a client up
 
 Right click the top level project folder.
 
-![alt text](https://www.kthisiscvpv.com/LvUJE1556427155kzEit.png "Update RuneLite")
+![alt text](https://www.kthisiscvpv.com/zH6vg1556427631utr7d.png "Update RuneLite")
 
 Navigate to `Git > Repository > Pull`.
 
